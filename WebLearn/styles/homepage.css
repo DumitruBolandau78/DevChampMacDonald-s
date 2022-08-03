@@ -1,0 +1,171 @@
+.hero-section{
+    background-image: url(../images/backgrounds/mac.jpg);
+    padding: 100px;
+    height: 150px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-section > .top-heading {
+    color: #cbcbcb;
+    padding: 1px 20px;
+    background-color: #11122b;
+    width: 340px;
+    border-radius: 2px;
+}
+.hero-section > .bottom-heading {
+    padding: 1px 10px;
+    background-color: #d4b609;
+    width: 130px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+.features-section {
+    height: 300px;
+    background-image: url(../images/backgrounds/fries.jpg);
+    border-top: 10px solid white;
+    background-color: #cea135;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    box-shadow: inset 0px -26px 79px -9px rgba(0, 0, 0, 0.58);
+}
+.features-section > .columns-wrapper{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features-section > .columns-wrapper > .column{
+    padding: 13px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid #11122b;
+}
+.features-section > .columns-wrapper > .column :nth-child(1){
+    font-size: 3em;
+}
+.features-section > .columns-wrapper > .column :nth-child(2){
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+.features-section > .columns-wrapper > .column :nth-child(2):hover{
+    letter-spacing: 1px;
+}
+.foot-column{
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 30px 100px 30px 100px;
+}
+.foot-column > .logo-image img{
+    width: 120px;
+    height: 100%;
+    /* filter: brightness(100%); */
+    /* opacity: 0.5;*/ /*transparent */
+}
+.foot-column > .logo-image {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.foot-column > .contacts-wrapper{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.foot-column > .contacts-wrapper > .number {
+    padding-right: 20px;
+}
+.foot-column > .contacts-wrapper > .time {
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.foot-column > .contacts-wrapper a{
+    text-decoration: none;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+.foot-column > .contacts-wrapper :hover{
+    color: #cea135;
+    letter-spacing: 1px;
+}
+.foot-column > .links-nav-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#bug
+{
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.foot-column > .links-nav-wrapper > .navi-link {
+    width: 70px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.foot-column > .links-nav-wrapper > .navi-link a:hover{
+    letter-spacing: 2px;
+    color: #cea135;
+}
+.foot-column > .links-nav-wrapper a{
+    text-decoration: none;
+    color: #cbcbcb;
+    text-align: center;
+    transition: 0.5s;
+}
+.foot-column > .icons{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.foot-column > .icons i{
+    transition: 0.5s;
+}
+.foot-column > .icons > .icon-insta{
+    padding-right: 60px;
+}
+.foot-column > .icons > .icon-insta i{
+    text-decoration: none;
+    color: #cbcbcb;
+}
+.foot-column > .icons > .icon-insta i:hover{
+    color: #cea135;
+}
+.foot-column > .icons >.icon-facebook{
+    padding-left: 60px;
+}
+.foot-column > .icons >.icon-facebook i{
+    color: #cbcbcb;
+    text-decoration: none;
+}
+.foot-column > .icons > .icon-facebook i:hover{
+    color: #cea135;
+}
+.foot-column > .date{
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}
+.foot-column > .date:hover{
+    color: #cea135;
+}
